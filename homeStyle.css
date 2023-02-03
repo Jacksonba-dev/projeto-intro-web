@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li{
+  list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    color: #E36414;
+  }
+
+  .item-menu:hover{
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 50px;
+    color: black;
+  }
+
+  .item-menu a{
+    display: block;
+    padding: 20px;
+    margin: 0px 10px 0px 10px;  
+  }
+
+  .menu{
+    display: flex;
+    justify-content: end;
+   
+  }
+
+  #logo{
+    width: 7vw;
+    height: 6vh;
+  }
+
+  #nav{
+    display: flex;
+    width: 7vw;
+    height: 6vh;
+    
+  }
+
+ -------------
+
+  main{
+    height: 80vh;
+    margin: 10px;
+    padding: 5px;
+    background-color: orange
+  }
+
+
+.estiloGaleria{
+  display: flex;
+}
+
+.galeriaDepoimento{
+  height: 20vh;
+  width: 13vh;
+  background-color: white;
+}
+
+  section{
+    width: 93vw;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .section1{
+    height: 30vh;
+    
+  }
+
+  .section2{
+    height: 40vh;
+    
+
+  }
+
+  .section-interna1{
+
+  }
+
+  .section-interna2{
+
+  }
+  
+
+  
+  
+  footer{
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    color: #98CE00;}
