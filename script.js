@@ -1,4 +1,4 @@
-// usar Number() para tranformar strings em numeros e faer o cálculo
+// usar Number() para tranformar strings em numeros e fazer o cálculo
 
 const cursos = ["HTML e CSS", "JavaScript", "APIsREST"];
 
@@ -210,10 +210,10 @@ function matricular(estudante, turma, curso, nParcelas){
     informações dentro de um objt de fato*/
     estudantes.push(estudante, turma, curso, nParcelas)
     console.log(estudantes)
-    console.log(`O aluno ${estudante} foi matriculado com sucesso no curso ${curso} 
+    console.log(document.getElementById("nome", "curso", "turma").value`O aluno ${estudante} foi matriculado com sucesso no curso ${curso} 
     e turma ${turma}.`)
 }
-matricular("joao", "A", "HTML", "1")
+matricular("joao", "Burnell", "HTML e CSS", "1")
 
 //declarar "parcelarCuso"
 function parcelarCurso(){

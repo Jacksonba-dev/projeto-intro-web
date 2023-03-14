@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.whats{
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+  border-radius: 50px;
+}
+
+.fa-whatsapp{
+  margin-top: 16px;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+.header-container{
+    display: flex;
+    padding: 5px;
+    height: 10vh;
+    width: 100%;
+    border-bottom: solid 2px #30cece;
+}
+
+.pai-logo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#logo{
+    width: 19vw;
+    height: 10vh;
+}
+
+
+
+.container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0 0 0 8vw;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.item-menu{
+    margin-right: 2vw;
+}
+
+.item-menu a{
+    display: block;
+    padding: 20px;
+    margin: 0px 10px 0px 10px;  
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Main */
+
+.zap{
+    background-color: green;
+}
+
+.container-cursos{
+
+  background-color: #F6C34A;   
+
+}
+
+.container-cursos1{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    background-color: #F6C34A;   
+    align-items: center ; 
+    justify-content: center;
+}
+
+.cursos{
+    height: 35vh;
+    width: 17vw;
+    background-color: white;
+    margin-right: 4vw;
+}
+
+.titulo-cursos{
+    padding: 2vh 0;
+    margin: 2vh 2vw;
+    font-weight: bold;
+    font-size: 1.35rem;
+    margin-bottom: 2.2vh;
+    
+}
+
+.descricao-cursos{
+    margin: 2vh 2vw;
+}
+
+.botao{
+    background-color: #000000;
+    color: white;
+    width: 35vh;
+    height: 7vh;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+.pai-botao{
+  padding-left: 40vw;
+  padding-bottom: 5vh;
+}
+
+.section2{
+    height: 60vh;
+    background-color: hsl(0, 4%, 5%);
+    padding-top: 2vh;
+} 
+
+.modulo1{
+    display: flex;
+    background-color: white;
+    width: 60vw;
+    margin: 4vh 4vh ; 
+    margin-left: 18vw;
+}
+
+  .modulo1 p{
+    width: 20vw;
+  }
+  .modulo1 b{
+    margin-left: 9vh;
+  }
+
+  .nome-curso{
+    margin-top: 5vh;
+    font-size: 25px;
+    font: bold;
+  }
+
+
+
+/* Footer */
+
+footer{
+    height: 47vh;
+    background-color: #f6c34a
+;}
+
+.container-rodape2{
+  display: flex; 
+  width: 100%;
+}
+
+.logo-rodape{
+  margin: 0 8vh;
+  padding-bottom: 3.5vh;
+}
+
+.bloco-endereco{
+  width: 40%;
+  padding-left: 4vw;
+}
+
+.links{
+  padding-right: 9vh;
+}
+
+.titulos-rodape{
+  font-weight: bold;
+  padding-bottom: 3vh;
+  color: #000000;
+}
+
+.container-redes-sociais{
+  
+  padding-right: 11vh;
+}
+
+.container-redes-sociais ul{
+  display: flex;
+}
+
+.container-redes-sociais ul img{
+  height: 1.5;
+  width: 1.5vw;
+  padding-right: 0.5vw;
+}
+
+.menu-rodape a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.area-restrita a{
+  color: #000000;
+  text-decoration: none;
+}

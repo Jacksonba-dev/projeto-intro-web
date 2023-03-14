@@ -3,24 +3,6 @@
     padding: 0;
 }
 
-.whats{
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: white;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 1px 1px 2px #888;
-  z-index: 1000;
-  border-radius: 50px;
-}
-
-.fa-whatsapp{
-  margin-top: 16px;
-}
 
 ul, ol, li{
   list-style: none;
@@ -78,82 +60,41 @@ ul, ol, li{
     text-decoration: none;
 
   }
+  /* Main */
 
-
-/* main */
-
-
-
-  .section1{
-    width: 100vw;
-    height: 50vh;
-    background-color: #f6c34a;
-    background-image: url(./imagens/LabEscola/planoDeFundo.png);
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-  }
-
-  #descubra-ensino{
-    padding-bottom: 1vh;
-  }
-
-  .section1 div{
-    padding-top: 20px;
-  }
-
-  .button{
-    background-color: #000000;
-    color: white;
-    width: 35vh;
-    height: 7vh;
-    font-size: 1rem;
-    font-weight: bold;
-  }
-
-  
-  .section2{
-    height: 85vh;
-    color: white;
-    background-color: black;
-    text-align: center;
-  }
-
-
-
-  .titulo-class{
-    font-size: 1.5em;
-    font-weight: bold;
-    padding-bottom: 3vh;
-    text-align: center;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    
-  }
-
-  .container-depoimentos{
+  .main{
+    height: 65vh;
     display: flex;
-    width: 100%;
-    justify-content: center;
-    padding-top: 7vh ;
+  }
+
+ .container-contato1{
+  height: 65vh ;
+  width: 20vw;
+  background-color: #000000;
+ }
+
+  a{
+    text-decoration: none;
+    padding: 2vh 2vw 2vh 2vw;
+    display: block;
+    color: gray;
     
   }
-  
-  .depoimentos{
-    background-color: white;
-    color: #000000;
-    border: #000000 solid 1px;
-    justify-content: center;
-    width: 20vw;
-    height: 40vh;
-    margin: 0 0.55vw;
-  }
 
+ .container-contato2{
+  height: 65vh ;
+  width: 80vw;
+  padding-left: 30vw;
+  padding-top: 12vh;
+  background-color: #f6c34a;
+ } 
 
-  .section-interna2{
-    padding: 0 12vw;
-  }
-  
+ .container-contato2 button{
+  background-color: #000000;
+  color: white;
+  margin-left: 3vw;
+  margin-top: 1.5vh;
+ }
   /* Footer */
 
   footer{
