@@ -3,24 +3,7 @@
     padding: 0;
 }
 
-.whats{
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: white;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 1px 1px 2px #888;
-  z-index: 1000;
-  border-radius: 50px;
-}
 
-.fa-whatsapp{
-  margin-top: 16px;
-}
 
 ul, ol, li{
   list-style: none;
@@ -70,7 +53,7 @@ ul, ol, li{
     margin-right: 2vw;
   }
 
-  .item-menu a{
+    .item-menu a{
     display: block;
     padding: 20px;
     margin: 0px 10px 0px 10px;  
@@ -78,85 +61,42 @@ ul, ol, li{
     text-decoration: none;
 
   }
+ 
 
+ /* Main */
+ 
+.container-indice{
+    width: 22vw;
+    height: 60vh;    
+    background-color: #000000;
+}
 
-/* main */
+.container-geral{
+    display: flex;
+}
 
-
-
-  .section1{
-    width: 100vw;
-    height: 50vh;
+.container-buscar-turmas{
+    display: flex;
     background-color: #f6c34a;
-    background-image: url(./imagens/LabEscola/planoDeFundo.png);
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-  }
+    width: 78vw;
+    border-bottom: solid 1.5px #000000;
+    padding: 5vh 40vw;
+}
 
-  #descubra-ensino{
-    padding-bottom: 1vh;
-  }
-
-  .section1 div{
-    padding-top: 20px;
-  }
-
-  .button{
+.button{
     background-color: #000000;
     color: white;
-    width: 35vh;
-    height: 7vh;
-    font-size: 1rem;
-    font-weight: bold;
-  }
+}
 
-  
-  .section2{
-    height: 85vh;
-    color: white;
-    background-color: black;
-    text-align: center;
-  }
+.card{
+  width: 50px;
+  height: 60px;
+  background-color: wheat;
+}
 
+ /* Footer */
 
-
-  .titulo-class{
-    font-size: 1.5em;
-    font-weight: bold;
-    padding-bottom: 3vh;
-    text-align: center;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    
-  }
-
-  .container-depoimentos{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding-top: 7vh ;
-    
-  }
-  
-  .depoimentos{
-    background-color: white;
-    color: #000000;
-    border: #000000 solid 1px;
-    justify-content: center;
-    width: 20vw;
-    height: 40vh;
-    margin: 0 0.55vw;
-  }
-
-
-  .section-interna2{
-    padding: 0 12vw;
-  }
-  
-  /* Footer */
-
-  footer{
+ footer{
     height: 47vh;
     background-color: #f6c34a
 ;}

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul, ol, li{
+  list-style: none;
+}
+
+.header-container{
+    display: flex;
+    padding: 5px;
+    height: 10vh;
+    width: 100%;
+    border-bottom: solid 2px #30cece;
+}
+
+  .pai-logo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+   }
+
+  
+
+  #logo{
+    width: 19vw;
+    height: 10vh;
+  }
+
+
+
+  .container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0 0 0 8vw;
+  }
+
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+
+  .item-menu{
+    margin-right: 2vw;
+  }
+
+  .item-menu a{
+    display: block;
+    padding: 20px;
+    margin: 0px 10px 0px 10px;  
+    color: #000000;
+    text-decoration: none;
+
+  }
+  /* Main */
+
+  .main{
+    height: 65vh;
+    display: flex;
+  }
+
+ .container-contato1{
+  height: 65vh ;
+  width: 20vw;
+  background-color: #000000;
+ }
+
+  a{
+    text-decoration: none;
+    padding: 2vh 2vw 2vh 2vw;
+    display: block;
+    color: gray;
+    
+  }
+
+ .container-contato2{
+  height: 65vh ;
+  width: 80vw;
+  background-color: #f6c34a;
+  padding-top: 30vh;
+  padding-left: 30vw;
+ } 
+
+ .container-contato2 button{
+  background-color: #000000;
+  color: white;
+ }
+  /* Footer */
+
+  footer{
+    height: 47vh;
+    background-color: #f6c34a
+;}
+
+.container-rodape2{
+  display: flex; 
+  width: 100%;
+}
+
+.logo-rodape{
+  margin: 0 8vh;
+  padding-bottom: 3.5vh;
+}
+
+.bloco-endereco{
+  width: 40%;
+  padding-left: 4vw;
+}
+
+.links{
+  padding-right: 9vh;
+}
+
+.titulos-rodape{
+  font-weight: bold;
+  padding-bottom: 3vh;
+  color: #000000;
+}
+
+.container-redes-sociais{
+  
+  padding-right: 11vh;
+}
+
+.container-redes-sociais ul{
+  display: flex;
+}
+
+.container-redes-sociais ul img{
+  height: 1.5;
+  width: 1.5vw;
+  padding-right: 0.5vw;
+}
+
+.menu-rodape a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.area-restrita a{
+  color: #000000;
+  text-decoration: none;
